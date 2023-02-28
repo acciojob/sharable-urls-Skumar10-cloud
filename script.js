@@ -3,11 +3,11 @@ var form = document.querySelector("form");
 var h3 = document.querySelector("h3");
 var nameElement = document.querySelector("#name");
 var yearElement = document.querySelector("#year");
-var btn = document.querySelector(#button);
+var btn = document.querySelector("#button");
 
 function handleSubmit(event) {
 		event.preventDefault();
-		var h3Value = 'https://localhost:8080/';
+		var h3Value = "https://localhost:8080/";
 		var name = nameElement.value;
 		var year = yearElement.value;
 
